@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500px"
+    android:background="@drawable/moon"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:text="title/ nama kota"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/location_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:text="cuaca"
+        android:textColor="#FFD700"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/latt_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:text="temperatur"
+        android:textColor="#FFD700"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:text="curret"
+        android:textColor="#FFD700"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/woeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:text="min temperatur"
+        android:textColor="#FFD700"
+        android:textStyle="bold" />
+</LinearLayout>
